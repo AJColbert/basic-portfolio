@@ -1,6 +1,5 @@
 body{
     align-content: center;
-    width: 960px;
     text-align: center;
     margin: auto;
 }
@@ -9,25 +8,30 @@ h1{
     display: block;
     float: left;
 }
+.topnavcontainer{
+    border-bottom: 2px solid grey;
+}
 
- .topnav{
+
+ .topnavcontent{
     overflow: hidden;
     background-color: white;
-    border-bottom: 2px solid grey;
+    width: 960px;
+    margin:auto;
  }
 ul{
     list-style-type:none;
     
 }
-.topnav li{
+.topnavcontent li{
     display: block;
     border-right: 1px solid grey;
     float: right;
 }
-.topnav li:first-child{
+.topnavcontent li:first-child{
     border-right: none;
 }
-.topnav a {
+.topnavcontent a {
     float: left;
     color: grey;
     text-align: center;
@@ -46,7 +50,8 @@ ul{
     background-color: white;
     border: 2px solid grey;
     text-align: left;
-    
+    width: 960px;
+    margin: auto;
   }
   .indexcontent{
       text-align: left;
@@ -64,4 +69,8 @@ ul{
     margin-top: 4px;
     margin-right: 15px;
     margin-bottom: 4px;
+}
+
+.footer{
+   
 }
