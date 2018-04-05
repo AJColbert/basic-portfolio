@@ -1,0 +1,35 @@
+h1{
+    display: block;
+    float: left;
+}
+
+ .topnav{
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid grey;
+ }
+ul{
+    list-style-type:none;
+    
+}
+.topnav li{
+    display: block;
+    border-right: 1px solid grey;
+    float: right;
+}
+.topnav li:first-child{
+    border-right: none;
+}
+.topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #profilepic{
+      width: 220px;
+      height: 150px;
+  }
