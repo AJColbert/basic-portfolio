@@ -5,6 +5,12 @@
     clear: both;
 }
 
+html{
+    background: url(../images/dust_scratches.png);
+    background-size: auto, cover;
+}
+
+
 body {
     align-content: center;
     text-align: center;
@@ -14,8 +20,7 @@ body {
     min-height: 100vh;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background: url(../images/dust_scratches.png);
-    background-size: auto, cover;
+   
 }
 
 .topnavcontent h1 {
