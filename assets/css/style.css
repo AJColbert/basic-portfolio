@@ -143,3 +143,33 @@ label{
     font-size: 18px;
     cursor: pointer;
 }
+
+.indexcontent li{
+    list-style-type:none;
+    float: left;
+    position: relative;
+    margin: 15px 40px 15px 0px;
+    
+ }
+
+.indexcontent li p{
+    background-color: #4aaaa5;
+    position: absolute;
+    z-index: 999;
+    padding: 10px 0px;
+    left: 0;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.indexcontent ul{
+    padding: 0px;
+}
+
+indexcontent img{
+    width: 275px;
+    height: 205px;
+}
